@@ -5,6 +5,7 @@ import popupImage from "./assets/Get Your Dream Panel ID (1000 x 1500 px).png";
 import Navbar from "./compoment/Navbar";
 import Testimonial from "./compoment/Testimonial";
 import Footer from "./compoment/footer";
+import ChooseButtonWithImage from "./compoment/ChooseButtonWithImage";
 
 export default function App() {
   const [showPopup, setShowPopup] = useState(false);
@@ -44,6 +45,7 @@ export default function App() {
       <div className={`transition-opacity duration-500 ${showPopup ? 'opacity-30' : 'opacity-100'}`}>
         <Navbar />
         <ImageSlider />
+        <ChooseButtonWithImage/>
         <ProductGrid id="image-grid" />
         <Testimonial />
         <Footer/>
