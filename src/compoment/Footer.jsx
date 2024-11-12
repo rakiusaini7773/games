@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center flex flex-col md:text-left">
-          <h3 className="text-lg font-semibold mb-2">Jewellery Guide</h3>
+          <h3 className="text-lg font-semibold mb-2"> Games Guide</h3>
           <ul className="space-y-2 text-sm">
             <li><Link to="/Rings" className="hover:underline">🔰 9 Wicket Type</Link></li>
             <li><Link to="/Necklaces" className="hover:underline">🔰 Asia Type</Link></li>
